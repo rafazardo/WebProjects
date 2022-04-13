@@ -5,7 +5,7 @@
 }
 
 body {
-  display:inline-block;
+  /* display:inline-block; */
   overflow-x: hidden
 }
 
@@ -27,7 +27,7 @@ footer h1 {
   text-align: center;
   color: white;
   font-family: 'Thin';
-  font-size: 25px;
+  font-size: 15px;
   padding: 40px;
 }
 
@@ -88,8 +88,8 @@ footer h1 {
 }
 
 .apresentacao {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   background: linear-gradient(0, #000000, #FFC600);
   margin: auto;
   overflow: auto;
@@ -97,20 +97,20 @@ footer h1 {
 
 .apresentacao i {
   color: #ffffff;
-  font-size: 250px;
+  font-size: 200px;
   /* padding: 30px; */
 }
 
-.card {
+/* .card {
   float: left;
   width: 33%;
   box-sizing: border-box;
   text-align: center;
   margin-top: 10%;
-}
+} */
 
 .card i {
-  display: block;
+  display: inline-block;
 }
 
 .card h1{
@@ -202,6 +202,42 @@ footer h1 {
   height: 60px;
   background-color: transparent;
   border: 5px solid rgba(255,255,255,0.4);
+}
+
+.produtos h1 {
+  color: #FFC600;
+  font-family: 'Anton';
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 75px;
+}
+
+.produtos p {
+  color: #FFC600;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 25px;
+  font-family: 'Thin';  
+}
+
+.produtos table {
+  margin-top: 25vh;
+  width: 90%;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Thin';  
+  border-collapse: collapse;
+  margin-left: 4%;
+}
+
+.produtos tr {
+  color: black;
+  border-bottom: 3px solid #FFC600;
+}
+
+.produtos th,td {
+  color: #FFC600;
+  padding: 10px;
 }
 
 .quadradoAnimado div:nth-child(1) {
