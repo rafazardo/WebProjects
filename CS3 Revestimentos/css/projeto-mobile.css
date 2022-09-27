@@ -1,0 +1,46 @@
+/*Tamanho padrão para tablets*/
+@media only screen and (max-width: 768px) {
+	.header-black ul {
+		display: none;
+	}
+}
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px) {
+	.header-black ul, #menu{
+		display: none;
+	}
+	#logotipo {
+		left: 12%;
+	}
+	#banner {
+		height: 317px;
+		background-size: cover;
+		background-position: 0;
+		text-align: center;
+	}
+	#banner h1{
+		top: 180px;
+		font-size: 55px;
+		margin-left: 0;
+
+	}
+
+	#banner h2{
+		top: 180px;
+		font-size: 25px;
+	}
+
+	#Importante time{
+		font-size: 20px;
+	}
+
+
+	.thumbnails {
+		text-align: center;
+	}
+	
+	#Datas {
+		height: inherit;
+	}
+	
+}

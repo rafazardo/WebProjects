@@ -1,0 +1,153 @@
+/* main {
+
+} */
+
+body {
+    margin: 0;
+    font-family: tahoma, arial, sans-serif;
+    padding: 0;  
+}
+
+nav {
+    background-color: #162028;
+    border-top: 1px solid transparent;
+    height: 50px;
+}
+
+.pagInicial nav li {
+    display: inline-block;
+    list-style: none;
+    
+}
+
+.pagInicial nav ul {
+    display: block;
+    text-align: right;
+    margin: 15px 30px 0 0;
+
+}
+
+.pagInicial nav a { 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* Espacamento entre as letras  */
+    letter-spacing: 4px; 
+    color: #425564;
+    margin-right: 50px;
+    /* Animacao da propriedade color */
+    transition: color 1s linear;
+}
+
+.pagInicial nav a:hover {
+    color: white;
+}
+
+.imgLogo {
+    position: absolute;
+    left: 250px;
+    top: 5px;
+}
+
+.imgBannerInicial {
+    background-position: right center;
+    background-size: cover;
+    width: 100%;
+}
+
+.portifolio {
+    width: 80%;
+    margin: auto;
+}
+
+.portifolio h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 80px;
+    color: #252525;
+}
+
+.portifolio p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    line-height: 2;
+}
+
+.galeria {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.card {
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin-left: 3%;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.tituloCard {
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.descricaoCard {
+    text-align: center;
+}
+
+.sobre {
+    background-image: url(/Secao\ 4/ProjetoFashion_inicio/imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 50px;
+    margin-top: 200px;
+    background-color: #003d52;
+}
+
+.sobre h2 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.sobre p {
+    text-align: left; 
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.contato address {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.maps {
+    margin-top: 50px;   
+    margin-bottom: 50px;  
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 4px;  
+    line-height: 80px;
+}
+
